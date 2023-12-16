@@ -1,3 +1,4 @@
+# 112RL_in_HCI_Competition2
 # RL-Soccer
 Soccer Twos Environment (Modified)
 This repository is a modified version of the [original Soccer Twos Environment](https://github.com/bryanoliveira/soccer-twos-env) with some customizations.
@@ -28,4 +29,4 @@ In this modified version, we have made the following changes:
 
 `conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cpuonly -c pytorch`
 
-# 112RL_in_HCI_Competition2
+
