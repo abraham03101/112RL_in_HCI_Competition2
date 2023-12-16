@@ -25,13 +25,12 @@ class TeamAgent(AgentInterface):
         )
         # check if weights exist, load weights & put model in eval mode
         weights_path = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), "dqn_policy_net_episode_980.pt"
+            os.path.dirname(os.path.abspath(__file__)), "dqn_policy_net_1.pt"
         )
         if os.path.isfile(weights_path):
             self.model.load_state_dict(torch.load(weights_path))
-            # self.model = torch.load(weights_path)
         else:
-            print("dqn_policy_net_episode_40 not found.")
+            print("dqn_policy_net_1 not found.")
         self.model.eval()
 
     def act(self, observation):
